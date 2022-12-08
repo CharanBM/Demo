@@ -17,6 +17,12 @@ public class ValidLogin {
 	@FindBy(xpath="//button[@name='login']")
 	private WebElement LoginBtn;
 	
+	
+	
+	
+	
+	
+	
 	//initialization
 	public ValidLogin(WebDriver driver)
 	{
