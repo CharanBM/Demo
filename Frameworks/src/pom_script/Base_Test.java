@@ -15,6 +15,9 @@ public class Base_Test implements FrameWork_constants {
 	{
 		System.setProperty(gecko_key,gecko_value);
 		driver = new FirefoxDriver();
+		
+		
+		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get(url);
 	}
